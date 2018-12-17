@@ -17,7 +17,10 @@ export default {
         use: {
           loader: 'babel-loader',
           options: {
-            cacheDirectory: true
+            cacheDirectory: true,
+            "plugins": [
+              ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+            ]
           }
         }
       }
@@ -42,6 +45,7 @@ export default {
       NODE_ENV: 'production'
     }),
 
-    new webpack.NamedModulesPlugin()
+    new webpack.NamedModulesPlugin(),
+
   ]
 };

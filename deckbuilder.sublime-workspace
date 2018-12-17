@@ -1,0 +1,819 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementById\t(elementId: string) => (HTMLElement | null)"
+			],
+			[
+				"UPDATE",
+				"UPDATE_SETTINGS"
+			],
+			[
+				"c",
+				"copy\tfunction"
+			],
+			[
+				"dorsal",
+				"dorsalInternal"
+			],
+			[
+				"show",
+				"showModal"
+			],
+			[
+				"qual",
+				"qualCopy"
+			],
+			[
+				"newH",
+				"newHullClass"
+			],
+			[
+				"Vi",
+				"ViewStore"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"ty",
+				"types"
+			],
+			[
+				"bui",
+				"buildPageSelect"
+			],
+			[
+				"applyFilt",
+				"applyFilterAsync"
+			],
+			[
+				"update",
+				"updateHistoryList"
+			],
+			[
+				"sim",
+				"simpleTable"
+			],
+			[
+				"top",
+				"top10Pages"
+			],
+			[
+				"reven",
+				"revenueTable"
+			],
+			[
+				"at",
+				"attr\t.attr() - single"
+			],
+			[
+				"a",
+				"attr\t.attr() - multiple"
+			],
+			[
+				"workb",
+				"workbookName"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"cla",
+				"classed()\td3-selection.classed()"
+			],
+			[
+				"pa",
+				"param\t@param"
+			],
+			[
+				"company",
+				"CompanyDetailTable"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"upda",
+				"FilterUpdateType"
+			],
+			[
+				"appl",
+				"applyFilter"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"mar",
+				"marksEvent"
+			],
+			[
+				"current",
+				"currentFilters"
+			],
+			[
+				"se",
+				"selectedFields"
+			],
+			[
+				"fie",
+				"fieldName"
+			],
+			[
+				"fun",
+				"fun.aggregate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Routes.js",
+			"settings":
+			{
+				"buffer_size": 708,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.html",
+			"settings":
+			{
+				"buffer_size": 1266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "configs/webpack.config.base.js",
+			"settings":
+			{
+				"buffer_size": 1043,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "wrap",
+		"selected_items":
+		[
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"replpy",
+				"SublimeREPL: Python"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"che",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"ch",
+				"Git: Checkout"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"check",
+				"Git: Checkout"
+			],
+			[
+				"git:",
+				"Git: Fetch"
+			],
+			[
+				"merge",
+				"Git: Merge"
+			],
+			[
+				"fet",
+				"Git: Fetch"
+			],
+			[
+				"GIT: pu",
+				"Git: Pull Current Branch"
+			],
+			[
+				"pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"pul",
+				"Git: Pull Current Branch"
+			],
+			[
+				"fetch",
+				"Git: Fetch"
+			],
+			[
+				"pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git:pu",
+				"Git: Pull"
+			],
+			[
+				"git:ch",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"git:st",
+				"Git: Status"
+			],
+			[
+				"git:mer",
+				"Git: Merge"
+			],
+			[
+				"git:c",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"git:f",
+				"Git: Fetch"
+			],
+			[
+				"git:r",
+				"Git: Remote"
+			],
+			[
+				"git:p",
+				"Git: Pull"
+			],
+			[
+				"gitpu",
+				"Git: Pull"
+			],
+			[
+				"gitch",
+				"Git: Checkout"
+			],
+			[
+				"gitp",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"gita",
+				"Git: Add Current File"
+			],
+			[
+				"gpu",
+				"Git: Push Current Branch"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"gcom",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"gsta",
+				"Git: Status"
+			],
+			[
+				"gche",
+				"Git: Checkout"
+			],
+			[
+				"gbr",
+				"Git: Checkout New Branch"
+			],
+			[
+				"gch",
+				"Git: Pull Current Branch"
+			],
+			[
+				"gfe",
+				"Git: Fetch"
+			],
+			[
+				"gre",
+				"Git: Remote"
+			],
+			[
+				"ga",
+				"Git: Add Remote"
+			],
+			[
+				"gitrem",
+				"Git: Add Remote"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"packains",
+				"Package Control: Install Package"
+			],
+			[
+				"packarem",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 590.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/types"
+	],
+	"file_history":
+	[
+		"/C/Users/christopher.daniels/Downloads/Ad/NS/Cato/970X250/970X250how to migrate form mpls to sdwan.html",
+		"/C/Users/christopher.daniels/Downloads/Ad/NS/Cato/300x600/300x600 how to migrate form mpls to sdwan.html",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/containers/CounterPage.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/actions/filters.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/reducers/filters.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/configs/webpack.config.base.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/actions/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/store/configureStore.dev.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/types/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/components/Counter.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/reducers/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/data/scryfall-arena-cards.json",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/data/scryfall-arena-cards-map.json",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/data/scryfall-default-cards.json",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.flat.module.css",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.main.module.css",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.minimal.module.css",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/Blue.module.css",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/App.js",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/Timer.js",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/Red.css",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/Blue.css",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/index.html",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.css",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/style.css",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/settingsRenderer.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/card.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/main.dev.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/constants/routes.json",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/main.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/dll/renderer.json",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/types.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/card.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/deck.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/setting.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/tasks.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/mtga_app.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/mtgatracker_backend.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/dispatchers.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/parsers.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/models/set.py",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/types.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/deck.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/deck.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/card.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/setting.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/setting.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/card.js",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/build.sh",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/package.json",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/mainRenderer.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/preact.config.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/src/geoms/rect.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/src/geoms/point.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/src/components/app.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/node_modules/preact/package.json",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/package.json",
+		"/C/Program Files/Sublime Text 3/sublime_plugin.py",
+		"/C/Users/christopher.daniels/Downloads/UnrulyFacebookAdScript.txt",
+		"/C/Users/christopher.daniels/Downloads/UnrulyTestAd.html",
+		"/C/Users/christopher.daniels/Documents/PBR ad script.txt",
+		"/C/Users/christopher.daniels/AppData/Local/Temp/Compelo Ads script - all sites.txt.htm",
+		"/C/Users/christopher.daniels/Documents/DFP API/adsense.py",
+		"/C/Users/christopher.daniels/AppData/Local/Temp/cta ad scripts.txt.htm",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Real_World_AI_BlackDots.ROS.160x600.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Real_World_AI_BlackDots.ROS.300x250.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Real_World_AI_WhiteDots.ROS.300x250.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Real_World_AI_WhiteDots.ROS.728x90.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.AI_at_Scale_Black .ROS.160x600.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.AI_at_Scale_Black .ROS.728x90.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.AI_at_Scale_White.ROS.160x600.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Apache_Spark .ROS.300x250.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.MIT_Tech.ROS.160x600.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.MIT_Tech.ROS.300x250.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.MIT_Tech.ROS.728x90.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.O'reilly_Deep_Learning_Book.ROS.728x90.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.O'reilly_Deep_Learning_Book.ROS.js",
+		"/C/Users/christopher.daniels/AppData/Local/Temp/Compelo Ads script - all sites.txt-1.htm",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/model/ShipStore.js",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Weapon/WeaponModal.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/WeaponsView.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Weapon/WeaponList.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Weapon/WeaponSelector.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Weapon/WeaponRow.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Essential/ExtrasSelector.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Essential/ExtrasModal.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/ExtrasView.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/App.js",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/ShipHeader.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/HullList.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/static/qualityComponent.json",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/static/qualityWeapon.json",
+		"/C/Users/christopher.daniels/AppData/Roaming/Sublime Text 3/Packages/User/tempComponentGetter.sublime-snippet",
+		"/C/Users/christopher.daniels/AppData/Roaming/Sublime Text 3/Packages/User/observable.sublime-snippet",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/model/ViewStore.js",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/public/index.html",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/selectors/filters.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/CompanyDetails/KPI/KPIEmployees.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/CompanyDetails/KPI/KPILocation.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/CompanyDetails/KPI/KPIRev.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/components/KPICompany.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/Tables/PagesTableFilter.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/PagesFilterContainer.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/CompaniesFilterContainer.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/pages/OverviewFilter.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/pages/OverviewFilterPages.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/Tables/CompaniesTableFilter.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/Tables/index.js",
+		"/C/Users/christopher.daniels/Downloads/state.json",
+		"/C/Users/christopher.daniels/Documents/My Tableau Repository/Preferences.tps",
+		"/I/DMP project/PoC/MVP/GD Realtime MedicalDevice Grouped/GD Realtime MedicalDevice Grouped.twb",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/companies-filter-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/testing-companies-overview-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/testing-company-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/testing-landing-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-pharma/js/companies-filter-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-pharma/js/testing-companies-overview-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-pharma/js/testing-company-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-pharma/js/testing-landing-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-mining/js/companies-filter-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-mining/js/testing-companies-overview-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-mining/js/testing-company-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-mining/js/testing-landing-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-food/js/companies-filter-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-food/js/testing-companies-overview-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-food/js/testing-company-init.js"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"banner",
+			"dom_overlay",
+			"anim_container",
+			"canvas",
+			"banner",
+			"click",
+			"babel",
+			"UPDATE_FILTER",
+			"}\\]",
+			"}.",
+			",(?={\"object\":\"card_face)",
+			",{\"object\":\"card_face",
+			"^.*?\"card_faces\":\\[",
+			"^.*?\"card_faces\":[",
+			".*?\"card_face",
+			".*?\"card_faces",
+			"colors",
+			"color_identity",
+			"color",
+			"color_indentity",
+			"card_face",
+			"color_indicator",
+			":.*$",
+			":\\[[^\\]]*\\],",
+			":\\[[^\\]]\\]*,",
+			":[^,\\[]*,",
+			":[^,]*,",
+			":\"[^\"]*\"},",
+			"{",
+			":\"[^\"]*\",",
+			"}{",
+			"\\n(?!{\"object\":\"card\")",
+			"74506297-41ad-40e5-bb05-175650ff4907",
+			",",
+			"\\n(?={\"object\":\"card_face)",
+			" // ",
+			",\\n",
+			"impervious+greatwurm",
+			"impervious greatwurm",
+			"impervious greatworm",
+			"impervious+greatworm",
+			"cmc"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"},{",
+			"",
+			",\\n",
+			"",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								708,
+								708
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/app.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "configs/webpack.config.base.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 266.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.YAMLMacros":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "deckbuilder.sublime-project",
+	"replace":
+	{
+		"height": 92.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.js",
+				"dashboard\\js\\app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
