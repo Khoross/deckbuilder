@@ -50,7 +50,7 @@ export default merge.smart(baseConfig, {
       },
       // Pipe other styles through css modules and append to style.css
       {
-        test: /^((?!\.global)(?!antd).)*\.css$/,
+        test: /^(?!react-flexbox-grid\.css)((?!\.global)(?!antd).)*\.css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader

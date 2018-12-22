@@ -46,9 +46,7 @@ export default merge.smart(baseConfig, {
   target: 'electron-renderer',
 
   entry: [
-    'react-hot-loader/patch',
     `webpack-dev-server/client?http://localhost:${port}/`,
-    'webpack/hot/only-dev-server',
     require.resolve('../app/index')
   ],
 
@@ -84,7 +82,7 @@ export default merge.smart(baseConfig, {
         ]
       },
       {
-        test: /^((?!\.global)(?!antd).)*\.css$/,
+        test: /^(?!react-flexbox-grid)((?!\.global)(?!antd).)*\.css$/,
         use: [
           {
             loader: 'style-loader'
@@ -205,10 +203,6 @@ export default merge.smart(baseConfig, {
           sourceType: 'var'
         }),
 
-    new webpack.HotModuleReplacementPlugin({
-      multiStep: true
-    }),
-
     new webpack.NoEmitOnErrorsPlugin(),
 
     /**
@@ -245,7 +239,7 @@ export default merge.smart(baseConfig, {
     stats: 'errors-only',
     inline: true,
     lazy: false,
-    hot: true,
+    hot: false,
     headers: { 'Access-Control-Allow-Origin': '*' },
     contentBase: path.join(__dirname, 'dist'),
     watchOptions: {

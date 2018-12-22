@@ -2,7 +2,7 @@
 
 export type Color = "W" | "R" | "U" | "B" | "G" | "C"
 export type Rarity = "common" | "uncommon" | "rare" | "mythic"
-export type CardKey = "arena_id" | "oracle_id" | "id" | "all_parts" | "card_faces" | "cmc" | "colors" | "color_identity" | "color_indicator" | "rarity" | "loyalty" | "mana_cost" | "name" | "oracle_text" | "power" | "toughness" | "type_line" | "types" | "flavor_text" | "set"
+export type CardKey = "arena_id" | "oracle_id" | "id" | "card_faces" | "cmc" | "colors" | "color_identity" | "color_indicator" | "rarity" | "loyalty" | "mana_cost" | "name" | "oracle_text" | "power" | "toughness" | "type_line" | "types" | "flavor_text" | "set"
 export type CardFaceKey = "color_indicator" | "colors" | "flavor_text" | "loyalty" | "mana_cost" | "name" | "oracle_text" | "power" | "toughness" | "type_line" | "types"
 
 export type Card = {
