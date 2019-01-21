@@ -1,29 +1,60 @@
-import React, {useState} from 'react';
-import {Menu, Icon} from 'antd';
+import React, {useState, useCallback, useRef, useEffect} from 'react';
+import {Menu, Icon, Layout, Input, Row, Col} from 'antd';
+import {fromEvent, of} from 'rxjs'
+import {debounceTime, merge} from'rxjs/operators'
+import {useDispatch} from 'redux-react-hook'
 import App from './containers/App';
 import {DeckBuilder} from './pages';
+import {setFilter} from './reducers';
+
+const {Header, Content, Sider} = Layout
 
 export default () => {
   const [page, setPage] = useState('deck')
+  const dispatch = useDispatch()
+  const inputRef = useRef(null)
+  const setSearchString = (str) => dispatch(setFilter(str))
+
+  useEffect(() => {
+      fromEvent(inputRef.current, 'change').pipe(
+        debounceTime(1),
+        merge(fromEvent(inputRef.current, 'blur')))
+      .subscribe(()=>setSearchString(inputRef.current.value))
+  })
   return (
     <App>
-      <Menu
-        selectedKeys = {[page]}
-        onClick = {(e) => setPage(e.key)}
-        mode="horizontal"
-      >
-        <Menu.Item key='deck'>
-          <Icon type='appstore' />Decklist
-        </Menu.Item>
-        <Menu.Item key='filter'>
-          <Icon type='filter' />Filter
-        </Menu.Item>
-      </Menu>
-      {
-        page === 'deck' ? <DeckBuilder /> :
-        page === 'filter' ? <DeckBuilder /> :
-        null
-      }
+      <Layout>
+        <Header className="header">
+          <Row gutter={16}>
+            <Col span={8}>
+              <input className="ant-input" type="text" placeholder="Scryfall format search string" ref={inputRef}/>
+            </Col>
+            <Col span={16}>
+              <Menu
+                selectedKeys = {[page]}
+                onClick = {(e) => setPage(e.key)}
+                mode="horizontal"
+                theme="dark"
+                style={{lineHeight: '64px'}}
+              >
+                <Menu.Item key='deck'>
+                  <Icon type='appstore' />Decklist
+                </Menu.Item>
+              </Menu>
+            </Col>
+          </Row>
+        </Header>
+        <Layout>
+          <Content>
+            {
+              page === 'deck' ? <DeckBuilder /> :
+              null
+            }
+          </Content>
+          <Sider width={200} style={{ background: '#fff' }}>
+          </Sider>
+        </Layout>
+      </Layout>
     </App>
   )
 };

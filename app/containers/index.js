@@ -1,2 +1,2 @@
-export * from './Filters'
+export * from './FilterInput'
 export * from './CardArray'

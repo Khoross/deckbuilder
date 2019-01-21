@@ -1,9 +1,7 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import { createLogger } from 'redux-logger';
-import createRootReducer from '../reducers';
-import * as counterActions from '../actions/counter';
-import * as actions from '../actions';
+import createRootReducer, * as actions from '../reducers';
 import type { counterStateType } from '../reducers/types';
 
 const rootReducer = createRootReducer();
@@ -29,7 +27,6 @@ const configureStore = (initialState?: counterStateType) => {
 
   // Redux DevTools Configuration
   const actionCreators = {
-    ...counterActions,
     ...actions
   };
   // If Redux DevTools Extension is installed use it, otherwise use Redux compose

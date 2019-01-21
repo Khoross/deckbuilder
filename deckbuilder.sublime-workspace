@@ -4,257 +4,142 @@
 		"selected_items":
 		[
 			[
-				"ty",
-				"type_line"
-			],
-			[
-				"card",
-				"cardImages\t? "
-			],
-			[
-				"rcc",
-				"rcc\tReact: legacy component"
-			],
-			[
-				"U",
-				"UPDATE_DRAFT_DECK\t? "
-			],
-			[
-				"map",
-				"mapDispatchToProps\tfn "
-			],
-			[
-				"ga",
-				"gameStateData\tany"
-			],
-			[
-				"else",
-				"else_if"
-			],
-			[
-				"UP",
-				"UPDATE_DECK_COLLECTION\t? "
-			],
-			[
-				"de",
-				"default\t? "
-			],
-			[
-				"A",
-				"ADD_MESSAGE\t? "
-			],
-			[
-				"game",
-				"gameStateData\t? "
-			],
-			[
-				"updat",
-				"updateGameState"
-			],
-			[
-				"new",
-				"newbounds\t{} "
-			],
-			[
-				"num",
-				"num_words\tparam"
-			],
-			[
-				"cosi",
-				"cosine_proximity\tfunction"
-			],
-			[
-				"co",
-				"cosine_proximity\tfunction"
-			],
-			[
-				"loss",
-				"losses\tmodule"
-			],
-			[
-				"pred",
-				"prediction_stack\tstatement"
-			],
-			[
-				"ge",
-				"get_loc"
-			],
-			[
-				"if",
-				"ifmain\tif __name__ == '__main__'"
-			],
-			[
 				"get",
-				"get_custom_objects\tfunction"
+				"getElementById\t(elementId: string) => (HTMLElement | null)"
 			],
 			[
-				"la_",
-				"la_words"
+				"UPDATE",
+				"UPDATE_SETTINGS"
 			],
 			[
-				"iter",
-				"itertuples\tfunction"
+				"c",
+				"copy\tfunction"
 			],
 			[
-				"area",
-				"area_counts"
+				"dorsal",
+				"dorsalInternal"
 			],
 			[
-				"word",
-				"wordsection"
+				"show",
+				"showModal"
 			],
 			[
-				"global",
-				"global_total\tstatement"
+				"qual",
+				"qualCopy"
 			],
 			[
-				"fy",
-				"fystart"
+				"newH",
+				"newHullClass"
 			],
 			[
-				"fin",
-				"finance_match\tstatement"
+				"Vi",
+				"ViewStore"
 			],
 			[
-				"sub",
-				"subsidiary_count"
+				"data",
+				"dataset"
 			],
 			[
-				"set",
-				"set_index\tfunction"
+				"ty",
+				"types"
 			],
 			[
-				"to_",
-				"to_frame"
+				"bui",
+				"buildPageSelect"
 			],
 			[
-				"count",
-				"count_frame\tstatement"
+				"applyFilt",
+				"applyFilterAsync"
 			],
 			[
-				"wo",
-				"word"
+				"update",
+				"updateHistoryList"
 			],
 			[
-				"aoo",
-				"aooname"
+				"sim",
+				"simpleTable"
 			],
 			[
-				"da",
-				"DataFrame\tclass"
+				"top",
+				"top10Pages"
 			],
 			[
-				"read_",
-				"read_csv\tfunction"
+				"reven",
+				"revenueTable"
 			],
 			[
-				"call",
-				"callbacks\tparam"
-			],
-			[
-				"mo",
-				"monitor\tparam"
-			],
-			[
-				"bill",
-				"bill_train\tstatement"
-			],
-			[
-				"E",
-				"Embedding\tclass"
-			],
-			[
-				"op",
-				"optimizer"
+				"at",
+				"attr\t.attr() - single"
 			],
 			[
 				"a",
-				"add\tfunction"
+				"attr\t.attr() - multiple"
 			],
 			[
-				"L",
-				"LSTM\tclass"
+				"workb",
+				"workbookName"
 			],
 			[
-				"re",
-				"recurrent"
+				"back",
+				"background-color"
 			],
 			[
-				"basic",
-				"basic_classifier\tstatement"
+				"cla",
+				"classed()\td3-selection.classed()"
 			],
 			[
-				"S",
-				"Sylvester"
+				"pa",
+				"param\t@param"
 			],
 			[
-				"poo",
-				"pool_size\tparam"
+				"company",
+				"CompanyDetailTable"
 			],
 			[
-				"s",
-				"save\tfunction"
+				"up",
+				"update"
 			],
 			[
-				"Y_",
-				"Y_train"
+				"upda",
+				"FilterUpdateType"
 			],
 			[
-				"X_t",
-				"X_test\tstatement"
+				"appl",
+				"applyFilter"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"mar",
+				"marksEvent"
+			],
+			[
+				"current",
+				"currentFilters"
+			],
+			[
+				"se",
+				"selectedFields"
+			],
+			[
+				"fie",
+				"fieldName"
+			],
+			[
+				"fun",
+				"fun.aggregate"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "filters:\nname\nrules text\ncolour\nCMC\nsupertype\ntype\nsubtype\nset\ntag",
+			"contents": "Remote:   origin @ https://github.com/Khoross/deckbuilder.git\nLocal:    master ~\\Documents\\mtga\\deckbuilder\nHead:     a7ffd60 MERGE Add deck tracking and basic routing\n\n\nUntracked files:\n\t.je-project-settings/\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
 			"settings":
 			{
-				"buffer_size": 66,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/dnlsc/Documents/mtga/Scryfall/scryfall_parse.py",
-			"settings":
-			{
-				"buffer_size": 3571,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/components/CardPopover.js",
-			"settings":
-			{
-				"buffer_size": 1803,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/containers/CardArray.js",
-			"settings":
-			{
-				"buffer_size": 2353,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/dnlsc/AppData/LocalLow/Wizards Of The Coast/MTGA/output_log.txt",
-			"settings":
-			{
-				"buffer_size": 28167807,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Remote:   origin @ https://github.com/Khoross/deckbuilder.git\nLocal:    master ~\\Documents\\mtga\\deckbuilder\nHead:     206f248 Added data and card display\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
-			"settings":
-			{
-				"buffer_size": 961,
+				"buffer_size": 972,
 				"line_ending": "Windows",
 				"name": "*git-status*: deckbuilder",
 				"read_only": true,
@@ -262,13 +147,20 @@
 			}
 		},
 		{
-			"contents": "Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:57:15) [MSC v.1915 64 bit (AMD64)] on win32\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> import json\nfrom math import isnan\nimport pandas as pd\n# First: split this into two at ' // ' if it exists\n# Apply on both, combine as sets\n# Then \ndef findTypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findTypes(type_line.split(' // ')[0]))|\n                    set(findTypes(type_line.split(' // ')[1])))\n    return [tp for tp in ['Artifact', 'Conspiracy', 'Creature', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme', 'Sorcery', 'Tribal', 'Vanguard'] if tp in type_line.split(' — ')[0]]\n\ndef findSubtypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findSubtypes(type_line.split(' // ')[0]))|\n                    set(findSubtypes(type_line.split(' // ')[1])))\n    return type_line.split(' — ')[1].split(' ') if len(type_line.split(' — ')) > 1 else []\n\ndef findSupertypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findTypes(type_line.split(' // ')[0]))|\n                    set(findTypes(type_line.split(' // ')[1])))\n    return [tp for tp in type_line.split(' — ')[0].split(' ') if tp not in ['Artifact', 'Conspiracy', 'Creature', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme', 'Sorcery', 'Tribal', 'Vanguard']]+['Historical'] if 'Legendary' in type_line or 'Artifact' in type_line or 'Saga' in type_line else []\n\ndef fix_faces(card_faces):\n    try:\n        filtered = [{key: face[key] for key in face if key in ['color_indicator', 'color', 'flavor_text', 'loyalty', 'mana_cost', 'name', 'oracle_text', 'power', 'toughness', 'type_line']} for face in card_faces]\n        for face in filtered:\n            if 'type_line' in face:\n                face['type'] = findTypes(face['type_line'])\n                face['subtype'] = findSubtypes(face['type_line'])\n                face['supertype'] = findSupertypes(face['type_line'])\n                face.pop('type_line')\n        return filtered\n    except:\n        return\n\ndef checkval(val):\n    try:\n        return False if val is None or isnan(val) else True\n    except:\n        return True\n\ncards = [json.loads(line) for line in open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\arena.json', 'r', encoding='utf8')]\ncardDF = pd.DataFrame(cards)\ncardDF_trimmed = cardDF[cardDF.set_name.isin(['Guilds of Ravnica', 'Core Set 2019', 'Dominaria', 'Rivals of Ixalan', 'Ixalan']) & ~cardDF.arena_id.isnull()]\ncardDF_trimmed.loc[:, 'supertype'] = cardDF_trimmed.type_line.apply(findSupertypes)\ncardDF_trimmed.loc[:, 'type'] = cardDF_trimmed.type_line.apply(findTypes)\ncardDF_trimmed.loc[:, 'subtype'] = cardDF_trimmed.type_line.apply(findSubtypes)\ncardDF_trimmed.loc[:, 'card_faces'] = cardDF_trimmed.card_faces.apply(fix_faces)\noutlist = cardDF_trimmed[['arena_id', 'card_faces', 'cmc','color_identity', 'colors', 'flavor_text', 'id', 'legalities','loyalty', 'mana_cost', 'name', 'oracle_id', 'oracle_text', 'power', 'rarity', 'set', 'set_name', 'toughness','supertype', 'type', 'subtype', 'type_line']].to_dict('records')\noutlist = [{key: card[key] for key in card if checkval(card[key])} for card in outlist]\noutlist = [{key: card[key] for key in card if key != 'types'} for card in outlist]\noutlist = [{key if key != 'subtypes' else 'subtype': card[key] for key in card} for card in outlist]\nwith open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\parsed_arena_cards_list.json', 'w', encoding='utf8') as outfile:\n    json.dump(outlist, outfile)\n\noutdict = {card['arena_id']: card for card in outlist}\nwith open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\parsed_arena_cards.json', 'w', encoding='utf8') as outfile:\n    json.dump(outdict, outfile)\n\n>>> >>> \n>>> ... ... ... ... ... ... ... ... >>> ... ... ... ... ... >>> ... ... ... ... ... >>> ... ... ... ... ... ... ... ... ... ... ... ... >>> ... ... ... ... ... >>> >>> >>> >>> C:\\Users\\dnlsc\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pandas\\core\\indexing.py:362: SettingWithCopyWarning: \nA value is trying to be set on a copy of a slice from a DataFrame.\nTry using .loc[row_indexer,col_indexer] = value instead\n\nSee the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy\n  self.obj[key] = _infer_fill_value(value)\nC:\\Users\\dnlsc\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pandas\\core\\indexing.py:543: SettingWithCopyWarning: \nA value is trying to be set on a copy of a slice from a DataFrame.\nTry using .loc[row_indexer,col_indexer] = value instead\n\nSee the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy\n  self.obj[item] = s\n>>> >>> >>> >>> >>> >>> >>> >>> ... ... >>> >>> ... ... >>> >>> \n>>> \n>>> \n>>> import json\nfrom math import isnan\nimport pandas as pd\n# First: split this into two at ' // ' if it exists\n# Apply on both, combine as sets\n# Then \ndef findTypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findTypes(type_line.split(' // ')[0]))|\n                    set(findTypes(type_line.split(' // ')[1])))\n    return [tp for tp in ['Artifact', 'Conspiracy', 'Creature', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme', 'Sorcery', 'Tribal', 'Vanguard'] if tp in type_line.split(' — ')[0]]\n\ndef findSubtypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findSubtypes(type_line.split(' // ')[0]))|\n                    set(findSubtypes(type_line.split(' // ')[1])))\n    return type_line.split(' — ')[1].split(' ') if len(type_line.split(' — ')) > 1 else []\n\ndef findSupertypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findTypes(type_line.split(' // ')[0]))|\n                    set(findTypes(type_line.split(' // ')[1])))\n    return [tp for tp in type_line.split(' — ')[0].split(' ') if tp not in ['Artifact', 'Conspiracy', 'Creature', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme', 'Sorcery', 'Tribal', 'Vanguard']]+['Historic'] if 'Legendary' in type_line or 'Artifact' in type_line or 'Saga' in type_line else []\n\ndef fix_faces(card_faces):\n    try:\n        filtered = [{key: face[key] for key in face if key in ['color_indicator', 'color', 'flavor_text', 'loyalty', 'mana_cost', 'name', 'oracle_text', 'power', 'toughness', 'type_line']} for face in card_faces]\n        for face in filtered:\n            if 'type_line' in face:\n                face['type'] = findTypes(face['type_line'])\n                face['subtype'] = findSubtypes(face['type_line'])\n                face['supertype'] = findSupertypes(face['type_line'])\n                face.pop('type_line')\n        return filtered\n    except:\n        return\n\ndef checkval(val):\n    try:\n        return False if val is None or isnan(val) else True\n    except:\n        return True\n\ncards = [json.loads(line) for line in open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\arena.json', 'r', encoding='utf8')]\ncardDF = pd.DataFrame(cards)\ncardDF_trimmed = cardDF[cardDF.set_name.isin(['Guilds of Ravnica', 'Core Set 2019', 'Dominaria', 'Rivals of Ixalan', 'Ixalan']) & ~cardDF.arena_id.isnull()]\ncardDF_trimmed.loc[:, 'supertype'] = cardDF_trimmed.type_line.apply(findSupertypes)\ncardDF_trimmed.loc[:, 'type'] = cardDF_trimmed.type_line.apply(findTypes)\ncardDF_trimmed.loc[:, 'subtype'] = cardDF_trimmed.type_line.apply(findSubtypes)\ncardDF_trimmed.loc[:, 'card_faces'] = cardDF_trimmed.card_faces.apply(fix_faces)\noutlist = cardDF_trimmed[['arena_id', 'card_faces', 'cmc','color_identity', 'colors', 'flavor_text', 'id', 'legalities','loyalty', 'mana_cost', 'name', 'oracle_id', 'oracle_text', 'power', 'rarity', 'set', 'set_name', 'toughness','supertype', 'type', 'subtype', 'type_line']].to_dict('records')\noutlist = [{key: card[key] for key in card if checkval(card[key])} for card in outlist]\noutlist = [{key: card[key] for key in card if key != 'types'} for card in outlist]\noutlist = [{key if key != 'subtypes' else 'subtype': card[key] for key in card} for card in outlist]\nwith open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\parsed_arena_cards_list.json', 'w', encoding='utf8') as outfile:\n    json.dump(outlist, outfile)\n\noutdict = {card['arena_id']: card for card in outlist}\nwith open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\parsed_arena_cards.json', 'w', encoding='utf8') as outfile:\n    json.dump(outdict, outfile)\n\n>>> >>> >>> ... ... ... ... ... ... ... ... >>> ... ... ... ... ... >>> ... ... ... ... ... >>> ... ... ... ... ... ... ... ... ... ... ... ... >>> ... ... ... ... ... >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> ... ... >>> >>> ... ... >>> \n>>> \n>>> \n>>> \n>>> import json\nfrom math import isnan\nimport pandas as pd\n# First: split this into two at ' // ' if it exists\n# Apply on both, combine as sets\n# Then \ndef findTypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findTypes(type_line.split(' // ')[0]))|\n                    set(findTypes(type_line.split(' // ')[1])))\n    return [tp for tp in ['Artifact', 'Conspiracy', 'Creature', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme', 'Sorcery', 'Tribal', 'Vanguard'] if tp in type_line.split(' — ')[0]]\n\ndef findSubtypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findSubtypes(type_line.split(' // ')[0]))|\n                    set(findSubtypes(type_line.split(' // ')[1])))\n    return type_line.split(' — ')[1].split(' ') if len(type_line.split(' — ')) > 1 else []\n\ndef findSupertypes(type_line):\n    if ' // ' in type_line:\n        return list(set(findTypes(type_line.split(' // ')[0]))|\n                    set(findTypes(type_line.split(' // ')[1])))\n    return [tp for tp in type_line.split(' — ')[0].split(' ') if tp not in ['Artifact', 'Conspiracy', 'Creature', 'Enchantment', 'Instant', 'Land', 'Phenomenon', 'Plane', 'Planeswalker', 'Scheme', 'Sorcery', 'Tribal', 'Vanguard']]+['Historic'] if 'Legendary' in type_line or 'Artifact' in type_line or 'Saga' in type_line else []\n\ndef fix_faces(card_faces):\n    try:\n        filtered = [{key: face[key] for key in face if key in ['color_indicator', 'color', 'flavor_text', 'loyalty', 'mana_cost', 'name', 'oracle_text', 'power', 'toughness', 'type_line']} for face in card_faces]\n        for face in filtered:\n            if 'type_line' in face:\n                face['type'] = findTypes(face['type_line'])\n                face['subtype'] = findSubtypes(face['type_line'])\n                face['supertype'] = findSupertypes(face['type_line'])\n        return filtered\n    except:\n        return\n\ndef checkval(val):\n    try:\n        return False if val is None or isnan(val) else True\n    except:\n        return True\n\ncards = [json.loads(line) for line in open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\arena.json', 'r', encoding='utf8')]\ncardDF = pd.DataFrame(cards)\ncardDF_trimmed = cardDF[cardDF.set_name.isin(['Guilds of Ravnica', 'Core Set 2019', 'Dominaria', 'Rivals of Ixalan', 'Ixalan']) & ~cardDF.arena_id.isnull()]\ncardDF_trimmed.loc[:, 'supertype'] = cardDF_trimmed.type_line.apply(findSupertypes)\ncardDF_trimmed.loc[:, 'type'] = cardDF_trimmed.type_line.apply(findTypes)\ncardDF_trimmed.loc[:, 'subtype'] = cardDF_trimmed.type_line.apply(findSubtypes)\ncardDF_trimmed.loc[:, 'card_faces'] = cardDF_trimmed.card_faces.apply(fix_faces)\noutlist = cardDF_trimmed[['arena_id', 'card_faces', 'cmc','color_identity', 'colors', 'flavor_text', 'id', 'legalities','loyalty', 'mana_cost', 'name', 'oracle_id', 'oracle_text', 'power', 'rarity', 'set', 'set_name', 'toughness','supertype', 'type', 'subtype', 'type_line']].to_dict('records')\noutlist = [{key: card[key] for key in card if checkval(card[key])} for card in outlist]\noutlist = [{key: card[key] for key in card if key != 'types'} for card in outlist]\noutlist = [{key if key != 'subtypes' else 'subtype': card[key] for key in card} for card in outlist]\nwith open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\parsed_arena_cards_list.json', 'w', encoding='utf8') as outfile:\n    json.dump(outlist, outfile)\n\noutdict = {card['arena_id']: card for card in outlist}\nwith open(r'C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall\\parsed_arena_cards.json', 'w', encoding='utf8') as outfile:\n    json.dump(outdict, outfile)\n\n>>> >>> >>> ... ... ... ... ... ... ... ... >>> ... ... ... ... ... >>> ... ... ... ... ... >>> ... ... ... ... ... ... ... ... ... ... ... >>> ... ... ... ... ... >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> ... ... >>> >>> ... ... >>> \n>>> \n>>> \n>>> ",
+			"file": "app/containers/CardArray.js",
 			"settings":
 			{
-				"buffer_size": 12553,
-				"line_ending": "Windows",
-				"name": "*REPL* [python]",
-				"scratch": true
+				"buffer_size": 2187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Routes.js",
+			"settings":
+			{
+				"buffer_size": 692,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -279,60 +171,72 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 112.0,
-		"last_filter": "",
+		"height": 357.0,
+		"last_filter": "pus",
 		"selected_items":
 		[
 			[
 				"pus",
-				"Git: Push"
+				"Git: Push Current Branch"
+			],
+			[
+				"pull",
+				"Git: Pull"
 			],
 			[
 				"stat",
 				"Git: Status"
 			],
 			[
-				"rep",
-				"SublimeREPL: Python"
-			],
-			[
-				"pac",
-				"Package Control: Install Package"
-			],
-			[
-				"repl",
-				"SublimeREPL: Python"
-			],
-			[
-				"sta",
-				"Git: Status"
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
 			],
 			[
 				"pack",
 				"Package Control: Install Package"
 			],
 			[
-				"rem",
-				"Package Control: Remove Package"
+				"status",
+				"Git: Status"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
+				"replpy",
+				"SublimeREPL: Python"
 			],
 			[
-				"remo",
-				"Package Control: Remove Package"
+				"push",
+				"Git: Push"
 			],
 			[
-				"refac",
-				"Text Refactor: Extract Method"
+				"git s",
+				"Git: Status"
 			],
 			[
 				"che",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"ch",
 				"Git: Checkout"
 			],
 			[
-				"mer",
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"check",
+				"Git: Checkout"
+			],
+			[
+				"git:",
+				"Git: Fetch"
+			],
+			[
+				"merge",
 				"Git: Merge"
 			],
 			[
@@ -340,83 +244,143 @@
 				"Git: Fetch"
 			],
 			[
-				"remote",
-				"Git: Remote"
-			],
-			[
-				"ch",
-				"Git: Checkout"
-			],
-			[
-				"git pull",
+				"GIT: pu",
 				"Git: Pull Current Branch"
 			],
 			[
-				"git fetc",
+				"pul",
+				"Git: Pull Current Branch"
+			],
+			[
+				"fetch",
 				"Git: Fetch"
 			],
 			[
-				"git remote",
+				"pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git:pu",
+				"Git: Pull"
+			],
+			[
+				"git:ch",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"git:st",
+				"Git: Status"
+			],
+			[
+				"git:mer",
+				"Git: Merge"
+			],
+			[
+				"git:c",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"git:f",
+				"Git: Fetch"
+			],
+			[
+				"git:r",
 				"Git: Remote"
+			],
+			[
+				"git:p",
+				"Git: Pull"
+			],
+			[
+				"gitpu",
+				"Git: Pull"
+			],
+			[
+				"gitch",
+				"Git: Checkout"
+			],
+			[
+				"gitp",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"gita",
+				"Git: Add Current File"
+			],
+			[
+				"gpu",
+				"Git: Push Current Branch"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"gcom",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"gsta",
+				"Git: Status"
+			],
+			[
+				"gche",
+				"Git: Checkout"
+			],
+			[
+				"gbr",
+				"Git: Checkout New Branch"
+			],
+			[
+				"gch",
+				"Git: Pull Current Branch"
+			],
+			[
+				"gfe",
+				"Git: Fetch"
+			],
+			[
+				"gre",
+				"Git: Remote"
+			],
+			[
+				"ga",
+				"Git: Add Remote"
+			],
+			[
+				"gitrem",
+				"Git: Add Remote"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"packains",
+				"Package Control: Install Package"
+			],
+			[
+				"packarem",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"tern",
-				"tern_for_sublime: Describe"
-			],
-			[
-				"packagrin",
-				"Package Control: Install Package"
-			],
-			[
-				"packagrli",
-				"Package Control: List Packages"
-			],
-			[
-				"lint",
-				"Anaconda: Disable linting on this file"
-			],
-			[
-				"replpy",
-				"SublimeREPL: Python"
-			],
-			[
-				"",
-				"Anaconda: Display object docs"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"brow",
-				"Preferences: Browse Packages"
-			],
-			[
-				"anac",
-				"Anaconda: Display object docs"
-			],
-			[
-				"py",
-				"SublimeREPL: Python"
-			],
-			[
-				"lint err",
-				"Anaconda: Next lint error"
-			],
-			[
-				"repy",
-				"SublimeREPL: Python"
-			],
-			[
-				"paci",
-				"Package Control: Install Package"
+				"inst",
+				"Package Control: Advanced Install Package"
 			]
 		],
-		"width": 462.0
+		"width": 590.0
 	},
 	"console":
 	{
@@ -436,146 +400,143 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/components",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/constants",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/containers",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/data",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/pages",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/reducers",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/store"
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/actions",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/containers",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/pages",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/reducers"
 	],
 	"file_history":
 	[
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/containers/Filters.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/types/index.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/reducers/filters.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/reducers/index.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/components/CardPopover.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/components/MTGCardTemplate.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/hooks/windowSize.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/containers/CardArray.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/pages/DeckBuilder.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/data/parsed_arena_cards.json",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/data/parsed_arena_cards_list.json",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/components/index.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/configs/webpack.config.renderer.dev.babel.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/configs/webpack.config.renderer.prod.babel.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/hooks/index.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/index.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/package.json",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/README.md",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/containers/Root.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/Routes.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/store/configureStore.dev.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/store/configureStore.prod.js",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/app/containers/index.js",
-		"/C/Users/dnlsc/Documents/mtga/Scryfall/scryfall_parse.py",
-		"/C/Users/dnlsc/Documents/mtga/Scryfall/scryfall_image_download.py",
-		"/C/Users/dnlsc/Documents/mtga/Scryfall/parsed_arena_cards.json",
-		"/C/Users/dnlsc/Documents/mtga/Scryfall/arena_trimmed.json",
-		"/C/Users/dnlsc/Documents/mtga/Scryfall/d3c99f65-2355-444b-b49a-c6b916f268b1 - Copy.txt",
-		"/C/Users/dnlsc/Documents/mtga/Scryfall/d3c99f65-2355-444b-b49a-c6b916f268b1.jpg",
-		"/C/Users/dnlsc/Documents/mtga/deckbuilder/src/App.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/inspector/js/api.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/inspectorApi.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/conf.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/inspector/js/deck.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/inspector/js/localDB.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/inspector/index.html",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/inspector/pages/index.html",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/inspector/package.json",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/HeaderButtons.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/pages/GamePage.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/pages/DraftPage.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/epics/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/pages/DeckListPage.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/style/flat.css",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/style/minimal.css",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/style/style.css",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/pages/DeckDetailsPage.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/components/Header.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/actions/game.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/reducers/stats.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/Theme.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/pages/Root.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/app.html",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/actions/stats.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/main.dev.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/actions/draft.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/actions/deck.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/CardList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/Card.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/actions/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/WinLossEntry.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/reducers/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/reducers/messages.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/VaultProgess.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/reducers/deck.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/actions/message.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/CardsRemaining.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/Timers.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DeckList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/components/CheckComponent.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/Message.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/.flowconfig",
-		"/C/Users/dnlsc/Documents/mtga/temp/mtgatracker/electron/package.json",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/package.json",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/store/configureStore.dev.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/constants/routes.json",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/components/Card.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/Deck.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/ErrorCount.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/ReturnLink.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/MessageList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/components/Deck.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/components/DeckList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/Body.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/reducers/types.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/reducers/game.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/GamePage.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DraftPage.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DeckDetailsPage.js",
-		"/C/Users/dnlsc/Documents/mtga/temp/mtgatracker/electron/mainRenderer.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/snippets",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DeckListPage.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/temporary/minimal.css",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/temporary/flat.css",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/temporary/style.css",
-		"/C/Users/dnlsc/AppData/Roaming/Electron/Settings",
-		"/C/Users/dnlsc/AppData/Roaming/MTGATracker/Settings",
-		"/C/Users/dnlsc/AppData/Roaming/ElectronReact/Settings",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/GamePageCardList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/actions/timers.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/reducers/timers.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/GamePageCard.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DeckPageCardList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/Root.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/mainRenderer.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/ActiveGameCardList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/Routes.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/build.sh",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/react_ui/src/routes/decklist/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/configs/webpack.config.base.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/components/CardList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/reducers/card.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DeckPageDeck.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DeckPageDeckList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DeckPageCard.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/utils/app.global.css",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/react_ui/src/components/decklist/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/react_ui/src/components/deckentry/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/helpers/colorToClass.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/helpers/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/containers/DeckPageList.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/react_ui/src/components/cost/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/react_ui/src/components/cardentry/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/react_ui/src/components/cardtext/index.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/main.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/ui/app/updates.js",
-		"/C/Users/dnlsc/Documents/mtga/mtgatracker/electron/updates.js"
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/containers/CardArray.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/Routes.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/pages/DeckBuilder.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/.eslintrc",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/package.json",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/containers/MTGCard.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/flow-typed/npm/antd_v3.x.x.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/components/MTGCardTemplate.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/components/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/pages/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/configs/webpack.config.renderer.prod.babel.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/configs/webpack.config.renderer.dev.babel.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/configs/webpack.config.base.js",
+		"/C/Users/christopher.daniels/Downloads/Ad/NS/Cato/970X250/970X250how to migrate form mpls to sdwan.html",
+		"/C/Users/christopher.daniels/Downloads/Ad/NS/Cato/300x600/300x600 how to migrate form mpls to sdwan.html",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/containers/CounterPage.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/actions/filters.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/reducers/filters.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/actions/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/store/configureStore.dev.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/types/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/components/Counter.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/reducers/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/data/scryfall-arena-cards.json",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/data/scryfall-arena-cards-map.json",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/data/scryfall-default-cards.json",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.flat.module.css",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.main.module.css",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.minimal.module.css",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/Blue.module.css",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/App.js",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/Timer.js",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/Red.css",
+		"/C/Users/christopher.daniels/Documents/mtga/rxjs-testing/src/Blue.css",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/index.html",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.css",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/style.css",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/settingsRenderer.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/card.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/components/Card.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/main.dev.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/constants/routes.json",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/main.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/dll/renderer.json",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/types.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/card.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/deck.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/setting.txt",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/tasks.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/mtga_app.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/mtgatracker_backend.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/dispatchers.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/parsers.py",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/app/models/set.py",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/types.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/deck.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/deck.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/card.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/reducers/setting.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/setting.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/index.js",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/app/actions/card.js",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/build.sh",
+		"/C/Users/christopher.daniels/Documents/mtga/electron-react-boilerplate/package.json",
+		"/C/Users/christopher.daniels/Documents/mtga/mtgatracker/electron/mainRenderer.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/preact.config.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/src/geoms/rect.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/src/geoms/point.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/src/components/app.js",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/node_modules/preact/package.json",
+		"/C/Users/christopher.daniels/Documents/graphing/graphing/package.json",
+		"/C/Program Files/Sublime Text 3/sublime_plugin.py",
+		"/C/Users/christopher.daniels/Downloads/UnrulyFacebookAdScript.txt",
+		"/C/Users/christopher.daniels/Downloads/UnrulyTestAd.html",
+		"/C/Users/christopher.daniels/Documents/PBR ad script.txt",
+		"/C/Users/christopher.daniels/AppData/Local/Temp/Compelo Ads script - all sites.txt.htm",
+		"/C/Users/christopher.daniels/Documents/DFP API/adsense.py",
+		"/C/Users/christopher.daniels/AppData/Local/Temp/cta ad scripts.txt.htm",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Real_World_AI_BlackDots.ROS.160x600.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Real_World_AI_BlackDots.ROS.300x250.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Real_World_AI_WhiteDots.ROS.300x250.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Real_World_AI_WhiteDots.ROS.728x90.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.AI_at_Scale_Black .ROS.160x600.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.AI_at_Scale_Black .ROS.728x90.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.AI_at_Scale_White.ROS.160x600.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.Apache_Spark .ROS.300x250.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.MIT_Tech.ROS.160x600.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.MIT_Tech.ROS.300x250.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.MIT_Tech.ROS.728x90.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.O'reilly_Deep_Learning_Book.ROS.728x90.UK.js",
+		"/C/Users/christopher.daniels/Documents/NST ad scripts/NewStatesman.O'reilly_Deep_Learning_Book.ROS.js",
+		"/C/Users/christopher.daniels/AppData/Local/Temp/Compelo Ads script - all sites.txt-1.htm",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/model/ShipStore.js",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Weapon/WeaponModal.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/WeaponsView.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Weapon/WeaponList.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Weapon/WeaponSelector.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Weapon/WeaponRow.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Essential/ExtrasSelector.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/Essential/ExtrasModal.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/ExtrasView.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/App.js",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/ShipHeader.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/components/HullList.jsx",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/static/qualityComponent.json",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/static/qualityWeapon.json",
+		"/C/Users/christopher.daniels/AppData/Roaming/Sublime Text 3/Packages/User/tempComponentGetter.sublime-snippet",
+		"/C/Users/christopher.daniels/AppData/Roaming/Sublime Text 3/Packages/User/observable.sublime-snippet",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/src/model/ViewStore.js",
+		"/C/Users/christopher.daniels/Documents/shipgen/shipgen/public/index.html",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/selectors/filters.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/CompanyDetails/KPI/KPIEmployees.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/CompanyDetails/KPI/KPILocation.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/CompanyDetails/KPI/KPIRev.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/components/KPICompany.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/Tables/PagesTableFilter.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/PagesFilterContainer.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/CompaniesFilterContainer.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/pages/OverviewFilter.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/pages/OverviewFilterPages.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/Tables/CompaniesTableFilter.jsx",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard-react/app-dashboard/src/containers/OverviewFilter/Tables/index.js",
+		"/C/Users/christopher.daniels/Downloads/state.json",
+		"/C/Users/christopher.daniels/Documents/My Tableau Repository/Preferences.tps",
+		"/I/DMP project/PoC/MVP/GD Realtime MedicalDevice Grouped/GD Realtime MedicalDevice Grouped.twb",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/companies-filter-init.js",
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/testing-companies-overview-init.js"
 	],
 	"find":
 	{
@@ -586,7 +547,6 @@
 		"height": 135.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -594,32 +554,57 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"PlayerInventory.getplayerinventory",
-			"PlayerInventory",
-			"wildcard",
-			"collection",
-			"historical",
-			"hitorical",
-			"Historical",
-			"Tooltip",
-			"newSize",
+			"linebreak",
+			"cr",
+			"lf",
+			"lint-staged",
+			"Sider",
+			"HEADER",
+			"Header",
 			"css",
-			"              ",
-			"\"9\"",
-			"\n        <Col span=\"6\"></Col>",
-			"hot",
-			"name",
-			"{T}",
-			", ",
-			"       ",
-			">>> ",
-			"trimmedDF",
-			"trimmeddf = ",
-			"\"card\"",
-			"\",\"",
-			"uri\\b",
-			"uri",
-			"\",\""
+			"css-lo",
+			"banner",
+			"dom_overlay",
+			"anim_container",
+			"canvas",
+			"banner",
+			"click",
+			"babel",
+			"UPDATE_FILTER",
+			"}\\]",
+			"}.",
+			",(?={\"object\":\"card_face)",
+			",{\"object\":\"card_face",
+			"^.*?\"card_faces\":\\[",
+			"^.*?\"card_faces\":[",
+			".*?\"card_face",
+			".*?\"card_faces",
+			"colors",
+			"color_identity",
+			"color",
+			"color_indentity",
+			"card_face",
+			"color_indicator",
+			":.*$",
+			":\\[[^\\]]*\\],",
+			":\\[[^\\]]\\]*,",
+			":[^,\\[]*,",
+			":[^,]*,",
+			":\"[^\"]*\"},",
+			"{",
+			":\"[^\"]*\",",
+			"}{",
+			"\\n(?!{\"object\":\"card\")",
+			"74506297-41ad-40e5-bb05-175650ff4907",
+			",",
+			"\\n(?={\"object\":\"card_face)",
+			" // ",
+			",\\n",
+			"impervious+greatwurm",
+			"impervious greatwurm",
+			"impervious greatworm",
+			"impervious+greatworm",
+			"cmc"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -627,8 +612,16 @@
 		"regex": true,
 		"replace_history":
 		[
-			"Historic",
-			"\",\\n\""
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"},{",
+			"",
+			",\\n",
+			"",
+			"\\n"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -639,7 +632,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -647,654 +640,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 66,
+						"buffer_size": 972,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"default_dir": "C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/dnlsc/Documents/mtga/Scryfall/scryfall_parse.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3571
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/components/CardPopover.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1803,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1115,
-								1115
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1115,
-										1116
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.pinkish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1101,
-										1102
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
-						},
-						"translation.x": 0.0,
-						"translation.y": 456.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/containers/CardArray.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2353,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								382,
-								388
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										388,
-										389
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/dot.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										381,
-										382
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/dnlsc/AppData/LocalLow/Wizards Of The Coast/MTGA/output_log.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 28167807,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28094540,
-								28094540
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										28094669,
-										28094670
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/dot.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										28094476,
-										28094477
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										28094669,
-										28094670
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/dot.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										28094476,
-										28094477
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 36389092.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 961,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								961,
-								961
+								826,
+								826
 							]
 						],
 						"settings":
 						{
 							"__vi_external_disable": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"default_dir": "C:\\Users\\dnlsc\\AppData\\LocalLow\\Wizards Of The Coast\\MTGA",
+							"default_dir": "C:\\Users\\christopher.daniels\\Documents\\mtga\\deckbuilder",
 							"draw_white_space": "none",
-							"git_repo": "C:\\Users\\dnlsc\\Documents\\mtga\\deckbuilder",
+							"git_repo": "C:\\Users\\christopher.daniels\\Documents\\mtga\\deckbuilder",
 							"git_status": true,
 							"git_view": "status",
+							"incomplete_sync": null,
 							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": false
@@ -1305,139 +670,70 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 6,
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "app/containers/CardArray.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 12553,
+						"buffer_size": 2187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12553,
-								12553
+								611,
+								611
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"default_dir": "C:\\Users\\dnlsc\\Documents\\mtga\\Scryfall",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "f231dea9b4224dfcaff32495f0c20305",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"extend_env":
-								{
-									"PYTHONIOENCODING": "utf-8"
-								},
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6125.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								343,
+								343
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1445,11 +741,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 44.0
+		"height": 43.0
 	},
 	"layout":
 	{
@@ -1460,18 +756,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.612507856694,
 			1.0
 		],
 		"rows":
@@ -1481,17 +770,9 @@
 		]
 	},
 	"menu_visible": true,
-	"output.SublimeLinter":
-	{
-		"height": 0.0
-	},
 	"output.YAMLMacros":
 	{
-		"height": 124.0
-	},
-	"output.exec":
-	{
-		"height": 130.0
+		"height": 118.0
 	},
 	"output.find_results":
 	{
@@ -1499,17 +780,21 @@
 	},
 	"output.git-commit":
 	{
-		"height": 124.0
+		"height": 118.0
+	},
+	"output.git-pull":
+	{
+		"height": 118.0
 	},
 	"output.git-push":
 	{
-		"height": 124.0
-	},
-	"output.mdpopups":
-	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/anaconda.sublime-build",
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
 	"project": "deckbuilder.sublime-project",
 	"replace":
 	{
@@ -1522,6 +807,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"app.js",
+				"dashboard\\js\\app.js"
+			]
 		],
 		"width": 0.0
 	},
@@ -1548,10 +837,10 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 329.0,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
