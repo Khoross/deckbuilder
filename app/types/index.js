@@ -45,3 +45,5 @@ export type CardFace = {
 
 export type Filter = {[CardKey]: [AtomicFilter]}
 export type AtomicFilter = {values: [any], comp: (any, any)=>boolean, key: CardKey}
+
+export type Deck = {name: String, cards: {[Number]: Number}}
