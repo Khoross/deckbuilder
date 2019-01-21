@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useMemo} from 'react'
 import {Pagination, Row, Col, List, Layout} from 'antd'
 import {useMappedState} from 'redux-react-hook';
 import {MTGCardTemplate} from '../components'
@@ -7,18 +7,7 @@ import cards from '../data/parsed_arena_cards_list.json'
 
 const {Content, Sider} = Layout;
 
-const applyFilters = (state) => {
-  console.log('called')
-  return cards.filter(
-      card=>Object.values(state.filters).every(
-        filterSet => filterSet.every(
-          filter => filter.values.some(
-            val => filter.comp(card[filter.key], val)
-            )
-          )
-        )
-      ).map(card=>card.arena_id)
-}
+const extractFilters = (state) => state.filters
 
 const getSize = () => {
   return {
@@ -47,7 +36,21 @@ const useWindowSize = () => {
 export const CardArray = (props) => {
   const [pageIdx, setPage] = useState(1)
   const {columns, rows} = useWindowSize()
-  const ids = useMappedState(applyFilters)
+  const filters = useMappedState(extractFilters)
+  const ids = useMemo(() => {
+    console.log('FILTER RUN')
+    return cards.filter(
+        card=>Object.values(filters).every(
+          filterSet => filterSet.every(
+            filter => filter.values.some(
+              val => filter.comp(card[filter.key], val)
+              )
+            )
+          )
+        ).map(card=>card.arena_id)
+    },
+    [filters]
+  )
 
   const startIdx = Math.ceil((pageIdx + 1)/(columns*rows))
 
