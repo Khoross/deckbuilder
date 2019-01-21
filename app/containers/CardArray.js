@@ -1,14 +1,13 @@
 import React, {useState, useEffect} from 'react'
-import {Pagination, Row, Col, List, Layout} from 'antd'
+import {Pagination, Row, Col, Layout} from 'antd'
 import {useMappedState} from 'redux-react-hook';
 import {MTGCardTemplate} from '../components'
-//import {useWindowSize} from '../hooks'
 import cards from '../data/parsed_arena_cards_list.json'
 
 const {Content, Sider} = Layout;
 
 const applyFilters = (state) => {
-  console.log('called')
+  console.log(+Date.now())
   return cards.filter(
       card=>Object.values(state.filters).every(
         filterSet => filterSet.every(
@@ -50,6 +49,7 @@ export const CardArray = (props) => {
   const ids = useMappedState(applyFilters)
 
   const startIdx = Math.ceil((pageIdx + 1)/(columns*rows))
+  console.log(+Date.now())
 
   return(
     <Layout>
@@ -63,14 +63,6 @@ export const CardArray = (props) => {
             </Row>
           ))
         }
-{/*        <List 
-          grid={{column: columns}}
-          dataSource={ids}
-          renderItem={id => <List.Item><MTGCardTemplate id={id} /></List.Item>}
-          pagination={{
-            pageSize: columns*rows
-          }}
-        />*/}
         <Row type="flex" justify="center">
           <Pagination current={startIdx} onChange={(p) => setPage((p-1)*columns*rows)} total={ids.length} pageSize={columns*rows}/>
         </Row>

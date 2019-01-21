@@ -1,11 +1,11 @@
 // @flow
 import { combineReducers } from 'redux';
-import counter from './counter';
 import filters from './filters'
+import deck from './deck'
 
 export default function createRootReducer() {
   return combineReducers({
-    counter,
-    filters
+    filters,
+    deck
   });
 }
