@@ -1,7 +1,7 @@
 import React, {useState, useCallback, useRef, useEffect} from 'react';
 import {Menu, Icon, Layout, Input, Row, Col} from 'antd';
 import {fromEvent, of} from 'rxjs'
-import {debounceTime, merge} from'rxjs/operators'
+import {debounceTime, merge, filter} from'rxjs/operators'
 import {useDispatch} from 'redux-react-hook'
 import App from './containers/App';
 import {DeckBuilder} from './pages';
@@ -15,12 +15,19 @@ export default () => {
   const inputRef = useRef(null)
   const setSearchString = (str) => dispatch(setFilter(str))
 
+  //Only submit a search string after we finish typing, the input loses focus, or we press enter
   useEffect(() => {
-      fromEvent(inputRef.current, 'change').pipe(
+    const sub = fromEvent(inputRef.current, 'change')
+      .pipe(
         debounceTime(1),
-        merge(fromEvent(inputRef.current, 'blur')))
+        merge(fromEvent(inputRef.current, 'blur')),
+        merge(
+          fromEvent(inputRef.current, 'keyup').pipe(filter((ev) => ev.key === 'Enter'))
+        )
+      )
       .subscribe(()=>setSearchString(inputRef.current.value))
-  })
+    return () => sub.unsubscribe()
+  }, [])
   return (
     <App>
       <Layout>

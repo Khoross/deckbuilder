@@ -4,20 +4,21 @@ import { createSlice } from 'redux-starter-kit'
 //import deck from './deck'
 //import filters from './filters'
 
+//setFilter is a no-op - the logic is handled in redux-observable
+//this is to avoid starting AJAX when the filter hasn't changed
 const filters = createSlice({
-  slice: 'filterString',
-  initialState: '',
+  slice: 'filters',
+  initialState: {loading: false, query: '', results: []},
   reducers: {
-    setFilter: (state, action) => {console.log(state);console.log(action);return action.payload}
-  }
-})
-
-const filterData = createSlice({
-  slice: 'filterResults',
-  initialState: false,
-  reducers: {
-    startLoading: () => false,
-    setData: (state, action) => action.payload
+    setFilter: () => {},
+    startLoading: (state, action) => {
+      state.loading = true
+      state.query = action.payload
+    },
+    setData: (state, action) => {
+      state.loading = false
+      state.results = action.payload
+    }
   }
 })
 
@@ -45,11 +46,9 @@ const deck = createSlice({
 export default function createRootReducer() {
   return combineReducers({
     filters: filters.reducer,
-    filterData: filterData.reducer,
     deck: deck.reducer
   });
 }
 
-export const {setFilter} = filters.actions
-export const {startLoading, setData} = filterData.actions
+export const {setFilter, startLoading, setData} = filters.actions
 export const {addCard, removeCard} = deck.actions

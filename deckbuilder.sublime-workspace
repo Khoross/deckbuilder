@@ -136,10 +136,10 @@
 	"buffers":
 	[
 		{
-			"contents": "Remote:   origin @ https://github.com/Khoross/deckbuilder.git\nLocal:    master ~\\Documents\\mtga\\deckbuilder\nHead:     a7ffd60 MERGE Add deck tracking and basic routing\n\n\nUntracked files:\n\t.je-project-settings/\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"contents": "Remote:   origin @ https://github.com/Khoross/deckbuilder.git\nLocal:    master ~\\Documents\\mtga\\deckbuilder\nHead:     d06382e Migrated to using Scryfall for filter/search directly. AJAX still to do\n\n\nUntracked files:\n\t.je-project-settings/\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
 			"settings":
 			{
-				"buffer_size": 972,
+				"buffer_size": 1002,
 				"line_ending": "Windows",
 				"name": "*git-status*: deckbuilder",
 				"read_only": true,
@@ -147,18 +147,101 @@
 			}
 		},
 		{
-			"file": "app/containers/CardArray.js",
+			"file": "app/Routes.js",
 			"settings":
 			{
-				"buffer_size": 2187,
+				"buffer_size": 2106,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Routes.js",
+			"file": "app/containers/CardArray.js",
 			"settings":
 			{
-				"buffer_size": 692,
+				"buffer_size": 1718,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/reducers/index.js",
+			"settings":
+			{
+				"buffer_size": 1470,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 10441,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "babel.config.js",
+			"settings":
+			{
+				"buffer_size": 2167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/epics/scryfallAJAX.test.js",
+			"settings":
+			{
+				"buffer_size": 512,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/store/configureStore.dev.js",
+			"settings":
+			{
+				"buffer_size": 1683,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/pages/index.js",
+			"settings":
+			{
+				"buffer_size": 55,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/pages/Filters.js",
+			"settings":
+			{
+				"buffer_size": 167,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import React, {useState, useEffect, useMemo} from 'react'\nimport {Form, Layout, Select, Input, Button} from 'antd'\nimport {useMappedState, useDispatch} from 'redux-react-hook';\nimport {MTGCardTemplate} from '../components'\nimport {updateFilter} from '../actions'\n\nconst {Content, Sider} = Layout;\nconst {Item} = Form\nconst {Option} = Select\n\nconst extractFilters = (state) => state.filters\n\nexport const FilterInput = (props) => {\n  const filters = useMappedState(extractFilters)\n  const dispatch = useDispatch()\n\n  return(\n    <Layout>\n      <Content>\n        <Select mode=\"multiple\">\n          <Option key=\"W\">White</Option>\n          <Option key=\"U\">Blue</Option>\n          <Option key=\"B\">Black</Option>\n          <Option key=\"R\">Red</Option>\n          <Option key=\"G\">Green</Option>\n        </Select>\n        <Select>\n          <Option key=\"GTE\">Contains all these colours and possibly more</Option>\n          <Option key=\"EQ\">Is exactly these colours</Option>\n          <Option key=\"LTE\">Contains only these colours, not necessarily all of them</Option>\n        </Select>\n        <Input />\n      </Content>\n      <Sider width={200} style={{ background: '#fff' }}>\n      </Sider>\n    </Layout>\n  )\n}",
+			"file": "app/containers/FilterInput.js",
+			"file_size": 1594,
+			"file_write_time": 131925477948381000,
+			"settings":
+			{
+				"buffer_size": 1204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/containers/index.js",
+			"settings":
+			{
+				"buffer_size": 57,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -172,7 +255,7 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "pus",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -401,20 +484,17 @@
 	"expanded_folders":
 	[
 		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder",
-		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app",
-		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/actions",
-		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/containers",
-		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/pages",
-		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/reducers"
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app"
 	],
 	"file_history":
 	[
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/package.json",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/pages/Filters.js",
+		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/Routes.js",
 		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/containers/CardArray.js",
 		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/index.js",
-		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/Routes.js",
 		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/pages/DeckBuilder.js",
 		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/.eslintrc",
-		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/package.json",
 		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/containers/MTGCard.js",
 		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/flow-typed/npm/antd_v3.x.x.js",
 		"/C/Users/christopher.daniels/Documents/mtga/deckbuilder/app/components/MTGCardTemplate.js",
@@ -535,8 +615,7 @@
 		"/C/Users/christopher.daniels/Downloads/state.json",
 		"/C/Users/christopher.daniels/Documents/My Tableau Repository/Preferences.tps",
 		"/I/DMP project/PoC/MVP/GD Realtime MedicalDevice Grouped/GD Realtime MedicalDevice Grouped.twb",
-		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/companies-filter-init.js",
-		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/testing-companies-overview-init.js"
+		"/C/Users/christopher.daniels/Documents/DMP dash java/tableau-d3-dev1 2/git/dashboard/malvern-water/js/companies-filter-init.js"
 	],
 	"find":
 	{
@@ -554,6 +633,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"build-renderer",
+			"card.arena_id",
+			"newFilter",
+			"filters",
+			"switch",
 			"linebreak",
 			"cr",
 			"lf",
@@ -632,7 +716,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -640,15 +724,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 972,
+						"buffer_size": 1002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								826,
-								826
+								217,
+								217
 							]
 						],
 						"settings":
@@ -660,9 +744,144 @@
 							"git_status": true,
 							"git_view": "status",
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								357
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/containers/CardArray.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1718,
+								1718
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 338.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/reducers/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -672,20 +891,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/containers/CardArray.js",
+					"buffer": 5,
+					"file": "babel.config.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2187,
+						"buffer_size": 2167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								611,
-								611
+								0,
+								0
 							]
 						],
 						"settings":
@@ -701,24 +920,122 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/Routes.js",
+					"buffer": 6,
+					"file": "test/epics/scryfallAJAX.test.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 692,
+						"buffer_size": 512,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								343,
-								343
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/store/configureStore.dev.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								774,
+								774
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/pages/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/pages/Filters.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
 							]
 						],
 						"settings":
@@ -733,7 +1050,73 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/containers/FilterInput.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								626,
+								626
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/containers/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/JS Custom/Syntaxes/React.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -840,7 +1223,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 252.0,
+	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
